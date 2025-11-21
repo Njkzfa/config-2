@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <package_name>requests</package_name>
+    <package_version>2.31.0</package_version>
+
+    <!-- URL pip-репозитория (по сути PyPI или его зеркало) -->
+    <repo_url>https://pypi.org</repo_url>
+
+    <!-- Режим тестового репозитория -->
+    <test_mode>false</test_mode>
+    <!-- Файл с тестовым графом (используется только при test_mode=true) -->
+    <test_repo_path>test_repo.txt</test_repo_path>
+
+    <!-- Имя выходного файла c изображением графа -->
+    <output_svg>deps_graph.svg</output_svg>
+</config>
