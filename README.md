@@ -48,7 +48,6 @@ python main.py config.xml --mode direct-deps
 ```bash
 python main.py config.xml --mode graph
 ```
-<img width="1807" height="177" alt="image" src="https://github.com/user-attachments/assets/27932d60-b643-4558-afe8-d51703bb2624" />
 
 
 4. Вывести порядок загрузки зависимостей (Этап 4):
@@ -57,15 +56,12 @@ python main.py config.xml --mode graph
 python main.py config.xml --mode load-order
 ```
 
-<img width="1322" height="275" alt="image" src="https://github.com/user-attachments/assets/890ab7fc-6fbb-4eed-954b-23bff807600e" />
-
 
 5. Сгенерировать Mermaid и SVG (Этап 5):
 
 ```bash
 python main.py config.xml --mode visualize
 ```
-<img width="960" height="252" alt="image" src="https://github.com/user-attachments/assets/d28b020a-4b93-43b9-b299-77fd33bf5c2c" />
 
 
 Для генерации SVG требуется установленный `mmdc` (mermaid-cli).
