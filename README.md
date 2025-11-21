@@ -32,6 +32,8 @@ D: A C
 ```bash
 python main.py config.xml --mode print-config
 ```
+<img width="1195" height="187" alt="image" src="https://github.com/user-attachments/assets/00530bb7-6784-4bcf-9e41-818626f47ef2" />
+
 
 2. Вывести прямые зависимости пакета (Этап 2):
 
